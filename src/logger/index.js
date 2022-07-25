@@ -1,4 +1,4 @@
-//call Pino and config customLevels.foo.length() //40
+    //call Pino and config customLevels.foo.length() //40
 const pino = require('pino')({customLevels: {
     foo: 100,
     
@@ -6,10 +6,10 @@ const pino = require('pino')({customLevels: {
 });
 
 
-//another notation for do same thing
-// const pino_C = pino({customLevels: {
-//    foo: 40
-//  }
-//});
-// module.exports = pino_C; 
+    //another notation for do same thing
+    // const pino_C = pino({customLevels: {
+    //    foo: --LEVEL--
+    //  }
+    //});
+    // module.exports = pino_C; 
 module.exports = pino; 

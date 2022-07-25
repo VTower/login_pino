@@ -1,8 +1,8 @@
-//calls 
+    //calls 
 const express = require('express');
 const logger = require('./logger')
 const pinoHttp = require('pino-http')({logger : logger});
-//indexing
+    //indexing
 const app = express();
 
 app.use(pinoHttp);
